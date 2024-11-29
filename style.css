@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart-container {
+    max-width: 300px;
+    height: 30rem;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .card h1 {
+    font-size: 18px;
+    flex-grow: 1;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .quantity button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  
+  .buy-now, .delete {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buy-now:hover, .delete:hover {
+    background-color: #45a049;
+  }
+  
+  #totalAmount {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
